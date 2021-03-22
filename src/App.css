@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+.warper {
+  display: inline-block;
+  position: relative;
+}
+
+.warper .sliderImg{
+  max-height: 400px;
+}
+
+.warper .slider-button{
+  position: absolute;
+  top: 50%;
+  transform: traslateY(-50%);
+  width: 150px;
+  height: 150px;
+}
+
+.warper .case-left{
+  left:0;
+}
+
+.warper .case-right {
+  right: 0;
+}
+
+.singles {
+  max-height: 200px;
+  display: inline-block;
+  position: relative;
+  border:sandybrown solid 2px;
+}
+
+.nameTag {
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+}
+
+.visibleNameBio {
+  display: block;
+  position: relative;
+  display: block;
+  width: 400px;
+  border:sandybrown solid 2px;
+}
